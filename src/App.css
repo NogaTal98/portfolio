@@ -1,38 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 .App {
+  font-family: "Oswald", sans-serif;
   text-align: center;
   display: grid;
-}
-
-.background {
   background-color: #eaeaea;
   height: 100vh;
+  width: 100vw;
 }
 
-ul {
-  list-style-type: none;
-  margin: 5px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  border-radius: 6px;
+.logo {
+  height: 2em;
+  margin-top: 3vh;
 }
 
-li {
-  float: left;
+/* NavBar */
+
+.navBar {
+  height: 5vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+
+  font-size: medium;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+.navBarButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLink {
+  padding: 0 2vw;
+  color: #333;
   text-decoration: none;
+
+	background: linear-gradient(currentColor, currentColor) bottom / 0 .05em no-repeat;
+	transition: 0.5s background-size;
+  background-position: center bottom;
 }
 
-li a:hover {
-  background-color: #111;
-  cursor: pointer;
+.navLink:hover, .currentPage{
+  background-size: 70% .05em;
 }
+
 
 /*projects*/
 .card-container{
@@ -111,9 +132,17 @@ li a:hover {
 
 /* About page */
 
+.about {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 .avatar {
   height: 50vh;
-  border-radius: 50%;
-  border: 5px solid #333;
-  ;
+  margin-left: 20vw;
 }

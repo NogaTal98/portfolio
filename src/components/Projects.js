@@ -6,9 +6,9 @@ import mouserace from '../pictures/mouse_race.jpg';
 
 function Projects() {
   return (
-    <div class="card">
-        <div class="card-container">
-            <div class="row">
+    <div className="card">
+        <div className="card-container">
+            <div className="row">
                 <Project image={wordle} 
                     name={"wordle"} 
                     description={"A clone of the popular New York Times game, Wordle"} 
