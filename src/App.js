@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import HorizontalNavBar from './components/Layout';
-import Projects from './components/Projects';
-import About from './components/About';
-import ContactMe from './components/ContactMe';
+import HorizontalNavBar from './pages/Layout';
+import Projects from './pages/Projects';
+import About from './pages/About';
+import ContactMe from './pages/ContactMe';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
