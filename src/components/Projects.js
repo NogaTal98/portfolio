@@ -12,6 +12,7 @@ function Projects() {
             {projects.map((project) => {
                 return (
                     <div className='project' key={project}>
+                        <img src={wordle} alt='wordle' className='projectImage'/>
                     </div>
                 );
             })}
