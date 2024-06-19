@@ -50,81 +50,6 @@
   background-size: 70% .05em;
 }
 
-/*projects*/
-.card-container{
-  margin-left: 5%;
-  width: 90%; /* Adjust the target width*/
-}
-.flip-container {
-  position: relative;
-  perspective: 1000px;
-}
-.flip-container:hover .flipper, .flip-container.hover .flipper{
-  transform: rotateY(180deg);
-}
-.flip-container, .front, .back {
-  width: 100%;
-  height: 100%;
-}
-.flipper {
-  transition: 0.9s;
-  transform-style: preserve-3d;
-  position: relative;
-  text-align: center;
-}
-.front, .back {
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.front {
-  background: rgba(0,0,0,0.05);
-  z-index: 2;
-  /* for firefox 31 */
-  transform: rotateY(0deg);
-}
-.back {
-  background: #333;
-  color: white;
-  height: 100%;
-  transform: rotateY(180deg);
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-.column30p {
-  float: left;
-  width: 28vw;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.flip-card-front {
-  background-color: #d3d3d3;
-  border-radius: 4px;
-  padding: 4px 8px;
-  height: 35vh
-}
-
-.img {
-  height: 100%;
-  max-width: 100%;
-}
-
-.link {
-  color: #fff;
-}
-
-.link:hover {
-  color: red;
-}
-
 /* About page */
 
 .page-container {
@@ -205,4 +130,43 @@
 
 .social-links a:hover {
   color: #000;
+}
+
+/* projects */
+
+.grid {
+  width: 80vw;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-rows: 18vw;
+  gap: 2vw;
+
+  padding-right: 2vw;
+  padding-bottom: 2vw;
+
+  overflow-y: auto;
+
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  border-radius: 1vw;
+}
+
+.grid::-webkit-scrollbar {
+  display: none;
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  margin: 1vw;
+
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+
+  border-radius: 0.5vw;
 }
