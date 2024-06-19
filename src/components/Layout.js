@@ -17,13 +17,15 @@ function Layout() {
         <img src={logo} className="logo" alt="logo"/>
         </div>
         <div className='navBarButtons'>
-          <Link to="/" className={currentPage === "" ? 'currentPage navLink' : 'navLink'} onClick={() => setCurrentPage("")}>Home</Link>
-          <Link to="/About" className={currentPage === "About" ? 'currentPage navLink' : 'navLink'} onClick={() => setCurrentPage("About")}>About</Link>
+          <Link to="/" className={currentPage === "" ? 'currentPage navLink' : 'navLink'} onClick={() => setCurrentPage("")}>About</Link>
           <Link to="/Projects" className={currentPage === "Projects" ? 'currentPage navLink' : 'navLink'} onClick={() => setCurrentPage("Projects")}>Projects</Link>
+          <Link to="/ContactMe" className={currentPage === "ContactMe" ? 'currentPage navLink' : 'navLink'} onClick={() => setCurrentPage("ContactMe")}>Contact Me</Link>
         </div>
       </nav>
 
-      <Outlet />
+      <div className="page-container">
+        <Outlet />
+      </div>
     </>
   );
 }

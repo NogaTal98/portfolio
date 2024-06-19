@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter >
         <Routes>
           <Route path="/" element={<HorizontalNavBar />}>
-            <Route index element={<div />} />
-            <Route path="About" element={<About />} />
+            <Route index element={<About />} />
+            <Route path="ContactMe" element={<About />} />
             <Route path="Projects" element={<Projects />} />
           </Route>
         </Routes>
