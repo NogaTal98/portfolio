@@ -1,5 +1,6 @@
 import react from 'react';
 import me from '../data/me.jpg';
+import cv from '../data/cv.pdf';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import headlineelement from '../data/headlineElement.png';
 
@@ -12,6 +13,7 @@ function About() {
           <div className="social-links">
           <a href="https://www.linkedin.com/in/noga-tal-79a634227/" target="_blank"><i className="fab fa-linkedin"></i></a>
           <a href="https://github.com/NogaTal98" target="_blank"><i className="fab fa-github"></i></a>
+          <a href={cv} target="_blank"><i class="fa-solid fa-download"></i></a>
           </div>
         </div>
         <div className="about-text">

@@ -1,4 +1,31 @@
 [
-    {"id": 1, "image": "./pictures/wordle.jpg", "description": "wordle"},
-    {"id": 2, "image": "./pictures/wiki-speed-run.jpg", "description": "wiki-speed-run"},
-    {"id": 2, "image": "./pictures/mouse_race.jpg", "description": "mouse_race"}]
+    {
+        "id": 1, 
+        "image": "./pictures/wordle.jpg", 
+        "name": "Wordle",
+        "description": "A word guessing game where you have to guess the word in 6 tries.",
+        "link": "https://wordle-noga.web.app/",
+        "github": "https://github.com/NogaTal98/wordle"
+    },
+    {
+        "id": 2, 
+        "image": "./pictures/wiki-speed-run.jpg", 
+        "name": "Wiki Speed Run",
+        "description": "An AI agant that crate a path from one wikipedia page to another in the least amount of clicks.",
+        "link": "https://wiki-speedrun.web.app/",
+        "github": "https://github.com/NogaTal98/wiki-speedrun"
+    },
+    {
+        "id": 3, 
+        "image": "./pictures/mouse_race.jpg", 
+        "name": "Mouse Race",
+        "description": "A 3D clicked game where you need to click the right element and avoid the wrong ones.",
+        "github": "https://github.com/NogaTal98/mouse_race"
+    },
+    {
+        "id": 4, 
+        "image": "./pictures/is_dry.jpg", 
+        "name": "Is Dry",
+        "description": "An arduino project that tells you when to water your plant."
+    }
+]
