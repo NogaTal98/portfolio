@@ -100,7 +100,7 @@
   
     .about-text p {
         width: 90%;
-        font-size: 1em;
+        font-size: 1.5em;
     }
   
     .about-image-and-icons {
@@ -110,6 +110,7 @@
         align-items: right;
         justify-content: center;
         margin-right: 0vw;
+        margin-top: 35vh;
         width: 40%;
     }
   
