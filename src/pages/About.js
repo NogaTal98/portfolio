@@ -1,7 +1,7 @@
 import react from 'react';
-import me from '../pictures/me.jpg';
+import me from '../data/me.jpg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import headlineelement from '../pictures/headlineElement.png';
+import headlineelement from '../data/headlineElement.png';
 
 function About() {
   return (

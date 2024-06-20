@@ -2,7 +2,7 @@ import react from 'react';
 import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import logo from '../pictures/logo.png';
+import logo from '../data/logo.png';
 
 function Layout() {
   const [currentPage, setCurrentPage] = react.useState('');
