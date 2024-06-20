@@ -1,5 +1,6 @@
 import react from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import './contactMe.css';
 
 function ContactMe() {
   const [subject, setSubject] = react.useState('');

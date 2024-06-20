@@ -1,4 +1,5 @@
 import react from 'react';
+import './about.css';
 import me from '../data/me.jpg';
 import cv from '../data/cv.pdf';
 import headlineelement from '../data/headlineElement.png';
