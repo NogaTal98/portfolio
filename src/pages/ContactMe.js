@@ -35,7 +35,7 @@ function ContactMe() {
                 Tell me more about this opportunity* <br/>
                 <textarea id="message" name="message" onChange={handelMessageChange} required></textarea>
               </div>
-              <button type="submit" className="social-links mail-icon"> <i class="fa-solid fa-envelope"></i> </button>
+              <button type="submit" className="social-links mail-icon"> <i className="fa-solid fa-envelope"></i> </button>
               
             </form>
           </div>
