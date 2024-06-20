@@ -15,10 +15,10 @@ function Project({project}) {
             {clicked && <div className='projectClicked'>
                 <div className='projectName'> {project.name} </div>
                 <div className='projectDescription'> {project.description} </div>
-                <h href={project.link} target="_blank" className='projectLink'>Demo link</h> <br></br>
-                <h href={project.github} target="_blank" className='projectGit'>Github link</h>
+                {project.link && <a href={project.link} target="_blank" className='projectLink'>Demo link</a>}
+                {project.github && <a href={project.github} target="_blank" className='projectGit'>Github link</a>}
             </div>}
-            <img src={project.image} alt='wordle' className='projectImage'/>
+            <img src={project.image} alt='projectImage' className='projectImage'/>
         </div>
     );
 }
