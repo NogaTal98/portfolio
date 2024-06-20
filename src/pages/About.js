@@ -1,4 +1,5 @@
 import react from 'react';
+import './about.css';
 import me from '../data/me.jpg';
 import cv from '../data/cv.pdf';
 import headlineelement from '../data/headlineElement.png';
@@ -11,9 +12,9 @@ function About() {
           <img src={headlineelement} alt="haeder-image" className="haeder-image" />
           <img src={me} alt="me" className="about-image" />
           <div className="social-links">
-          <a href="https://www.linkedin.com/in/noga-tal-79a634227/" target="_blank"><i className="fab fa-linkedin" title='linkedIn'></i></a>
-          <a href="https://github.com/NogaTal98" target="_blank"><i className="fab fa-github" title='gitHub'></i></a>
-          <a href={cv} target="_blank"><i class="fa-solid fa-download" title='resume'></i></a>
+            <a href="https://www.linkedin.com/in/noga-tal-79a634227/" target="_blank"><i className="fab fa-linkedin" title='linkedIn'></i></a>
+            <a href="https://github.com/NogaTal98" target="_blank"><i className="fab fa-github" title='gitHub'></i></a>
+            <a href={cv} target="_blank"><i className="fa-solid fa-download" title='resume'></i></a>
           </div>
         </div>
         <div className="about-text">
