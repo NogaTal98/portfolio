@@ -176,10 +176,9 @@
 
   border-radius: 0.5vw;
 
-  /* cursor: pointer; */
+  cursor: pointer;
   overflow: hidden;
-  transition: background-color .2s; /* Animation */
-  
+  transition: background-color .2s; 
 }
 
 .projectClicked {
@@ -192,7 +191,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 
   animation: fade-in 0.7s;
 }
@@ -212,8 +211,7 @@
   object-fit: cover;
   border-radius: 0.5vw;
 
-  transition: transform .2s; /* Animation */
-
+  transition: transform .2s;
 }
 
 .projectImage:hover {
@@ -227,6 +225,12 @@
 .projectDescription {
   width: 90%;
   text-align: center;
+}
+
+.technologies {
+  position: absolute;
+  bottom: 0;
+  font-size: small;
 }
 
 /* contact me page */

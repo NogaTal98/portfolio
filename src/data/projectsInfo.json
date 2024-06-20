@@ -5,7 +5,8 @@
         "name": "Wordle",
         "description": "A word guessing game where you have to guess the word in 6 tries.",
         "link": "https://wordle-noga.web.app/",
-        "github": "https://github.com/NogaTal98/wordle"
+        "github": "https://github.com/NogaTal98/wordle",
+        "technologies": "React, Firebase, CSS, JavaScript"
     },
     {
         "id": 2, 
@@ -13,19 +14,22 @@
         "name": "Wiki Speed Run",
         "description": "An AI agant that crate a path from one wikipedia page to another in the least amount of clicks.",
         "link": "https://wiki-speedrun.web.app/",
-        "github": "https://github.com/NogaTal98/wiki-speedrun"
+        "github": "https://github.com/NogaTal98/wiki-speedrun",
+        "technologies":"React, Firebase, CSS, JavaScript, Python, Flask, Embedding model, Scraping"
     },
     {
         "id": 3, 
         "image": "./pictures/mouse_race.jpg", 
         "name": "Mouse Race",
         "description": "A 3D click game where you need to click the right element and avoid the wrong ones.",
-        "github": "https://github.com/NogaTal98/mouse_race"
+        "github": "https://github.com/NogaTal98/mouse_race",
+        "technologies": "TypeScript, Three.js, CSS"
     },
     {
         "id": 4, 
         "image": "./pictures/is_dry.jpg", 
         "name": "Is Dry",
-        "description": "An arduino project that tells you when to water your plant."
+        "description": "An arduino project that tells you when to water your plant.",
+        "technologies": "C++, Arduino, Sensors"
     }
 ]

@@ -15,8 +15,9 @@ function Project({project}) {
             {clicked && <div className='projectClicked'>
                 <div className='projectName'> {project.name} </div>
                 <div className='projectDescription'> {project.description} </div>
-                {project.link && <a href={project.link} target="_blank" className='projectLink'>Demo link</a>}
-                {project.github && <a href={project.github} target="_blank" className='projectGit'>Github link</a>}
+                {project.link && <a href={project.link} target="_blank" className='projectLink'>Demo</a>}
+                {project.github && <a href={project.github} target="_blank" className='projectGit'>Code</a>}
+                <div className='technologies'> {project.technologies} </div>
             </div>}
             <img src={project.image} alt='projectImage' className='projectImage'/>
         </div>
