@@ -47,3 +47,18 @@
   textarea {
     height: 100px;
   }
+
+  @media screen and (max-width: 768px){
+    .contact {
+      flex-direction: column;
+    }
+  
+    .title {
+      width: 90%;
+    }
+  
+    .contactInfo {
+      width: 90%;
+    }
+    
+  }
