@@ -36,7 +36,7 @@ function ContactMe() {
                 <textarea id="message" name="message" onChange={handelMessageChange}></textarea>
               </div>
               <div className="social-links mail-icon">
-                <a href={`mailto:westerdijk@pm.me?subject=${subject}&body=${message}`}
+                <a href={`mailto:isanyo.noga@gmail.com?subject=${subject}&body=${message}`}
                     target="_blank">
                   <i class="fa-solid fa-envelope"></i>
                 </a>

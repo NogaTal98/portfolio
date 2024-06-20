@@ -19,7 +19,7 @@
         "id": 3, 
         "image": "./pictures/mouse_race.jpg", 
         "name": "Mouse Race",
-        "description": "A 3D clicked game where you need to click the right element and avoid the wrong ones.",
+        "description": "A 3D click game where you need to click the right element and avoid the wrong ones.",
         "github": "https://github.com/NogaTal98/mouse_race"
     },
     {
