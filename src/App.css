@@ -132,6 +132,11 @@
   color: #000;
 }
 
+.resume-tooltip {
+  background-color: #eaeaea;
+  padding: 0;
+}
+
 /* projects */
 
 .grid {
