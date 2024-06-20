@@ -21,26 +21,22 @@ function ContactMe() {
         </div>
           <div className="contactInfo">
             <h1>Let me know!</h1>
-            <form>
+            <form action={`mailto:isanyo.noga@gmail.com?subject=${subject}&body=${message}`} method="post">
               <div className="form-group">
-                <input type="text" id="name" name="name" placeholder="Full name" required/>
-              </div>
-              <div className="form-group">
-                <input type="email" id="email" name="email" placeholder="Email address" required/>
+                <input type="text" id="name" name="name" placeholder="Full name*" required/>
               </div>
               <div className="form-group">
-                <input id="subject" name="subject" placeholder="Subject" onChange={handelSubjectChange} required/>
+                <input type="email" id="email" name="email" placeholder="Email address*"required/>
               </div>
               <div className="form-group">
-                Tell me more about this opportunity <br/>
-                <textarea id="message" name="message" onChange={handelMessageChange}></textarea>
+                <input id="subject" name="subject" placeholder="Subject*" onChange={handelSubjectChange} required/>
               </div>
-              <div className="social-links mail-icon">
-                <a href={`mailto:isanyo.noga@gmail.com?subject=${subject}&body=${message}`}
-                    target="_blank">
-                  <i class="fa-solid fa-envelope"></i>
-                </a>
+              <div className="form-group">
+                Tell me more about this opportunity* <br/>
+                <textarea id="message" name="message" onChange={handelMessageChange} required></textarea>
               </div>
+              <button type="submit" className="social-links mail-icon"> <i class="fa-solid fa-envelope"></i> </button>
+              
             </form>
           </div>
       </div>
