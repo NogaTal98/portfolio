@@ -27,9 +27,17 @@
     },
     {
         "id": 4, 
-        "image": "./pictures/is_dry.jpg", 
-        "name": "Is Dry",
+        "video": "./pictures/H2grOw.mp4", 
+        "name": "H2grOw",
         "description": "An arduino project that tells you when to water your plant.",
         "technologies": "C++, Arduino, Sensors"
+    },
+    {
+        "id": 5, 
+        "video": "./pictures/autofill.mp4", 
+        "name": "Autofill Chrome Extension",
+        "description": "A chrom ecxtension that autofill aplication forms for you.",
+        "github": "https://github.com/NogaTal98/autofillExtension",
+        "technologies": "React, JavaScript"
     }
 ]
