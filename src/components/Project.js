@@ -1,4 +1,5 @@
 import react from 'react';
+import ReactPlayer from 'react-player/file'
 
 
 function Project({project}) {
@@ -19,7 +20,9 @@ function Project({project}) {
                 {project.github && <a href={project.github} target="_blank" className='projectGit'>Code</a>}
                 <div className='technologies'> {project.technologies} </div>
             </div>}
-            <img src={project.image} alt='projectImage' className='projectImage'/>
+            {project.image ? 
+                <img src={project.image} alt='projectImage' className='projectImage'/> :
+                <ReactPlayer url={project.video} controls={true} height='100%' width='100%'/>}
         </div>
     );
 }
