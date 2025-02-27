@@ -12,7 +12,7 @@ function About() {
           <img src={headlineelement} alt="haeder-image" className="haeder-image" />
           <img src={me} alt="me" className="about-image" />
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/noga-tal-79a634227/" target="_blank"><i className="fab fa-linkedin" title='linkedIn'></i></a>
+            <a href="https://www.linkedin.com/in/noga-sadeh-79a634227/" target="_blank"><i className="fab fa-linkedin" title='linkedIn'></i></a>
             <a href="https://github.com/NogaTal98" target="_blank"><i className="fab fa-github" title='gitHub'></i></a>
             <a href={cv} target="_blank"><i className="fa-solid fa-download" title='resume'></i></a>
           </div>
@@ -20,9 +20,12 @@ function About() {
         <div className="about-text">
           <div className="about-header">ABOUT ME</div>
           <p>
-            I am Noga Tal, a software engineer from Herzliya. 
+            I am Noga Sadeh, a software engineer from Herzliya. 
             I studied computer science (BSc) at Reichman University, where I built a solid foundation in the field. 
             
+          </p>
+          <p>
+            I currently work as a Full Stack Engineer at Enqode, where I develop new features and maintain existing ones using Node.js, Vuetify, JavaScript and Python.
           </p>
           <p>
             I spent 1.5 years at Red Hat as a Software Quality Engineer, where I worked with Cypress and JavaScript to create new UI tests from scratch for our product. 

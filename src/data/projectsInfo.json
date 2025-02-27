@@ -1,5 +1,13 @@
 [
     {
+        "id": 5, 
+        "video": "./pictures/autofill.mp4", 
+        "name": "Autofill Chrome Extension",
+        "description": "A chrom ecxtension that autofill aplication forms for you.",
+        "github": "https://github.com/NogaTal98/autofillExtension",
+        "technologies": "React, JavaScript"
+    },
+    {
         "id": 1, 
         "image": "./pictures/wordle.jpg", 
         "name": "Wordle",
@@ -12,18 +20,10 @@
         "id": 2, 
         "image": "./pictures/wiki-speed-run.jpg", 
         "name": "Wiki Speed Run",
-        "description": "An AI agant that crate a path from one wikipedia page to another in the least amount of clicks.",
+        "description": "An AI agant creating a path from one wiki page to another in the least amount of clicks.",
         "link": "https://wiki-speedrun.web.app/",
         "github": "https://github.com/NogaTal98/wiki-speedrun",
         "technologies":"React, Firebase, CSS, JavaScript, Python, Flask, Embedding model, Scraping"
-    },
-    {
-        "id": 3, 
-        "image": "./pictures/mouse_race.jpg", 
-        "name": "Mouse Race",
-        "description": "A 3D click game where you need to click the right element and avoid the wrong ones.",
-        "github": "https://github.com/NogaTal98/mouse_race",
-        "technologies": "TypeScript, Three.js, CSS"
     },
     {
         "id": 4, 
@@ -33,11 +33,11 @@
         "technologies": "C++, Arduino, Sensors"
     },
     {
-        "id": 5, 
-        "video": "./pictures/autofill.mp4", 
-        "name": "Autofill Chrome Extension",
-        "description": "A chrom ecxtension that autofill aplication forms for you.",
-        "github": "https://github.com/NogaTal98/autofillExtension",
-        "technologies": "React, JavaScript"
+        "id": 3, 
+        "image": "./pictures/mouse_race.jpg", 
+        "name": "Mouse Race",
+        "description": "A 3D click game where you need to click the right element and avoid the wrong ones.",
+        "github": "https://github.com/NogaTal98/mouse_race",
+        "technologies": "TypeScript, Three.js, CSS"
     }
 ]
