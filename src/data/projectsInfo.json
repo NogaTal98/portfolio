@@ -1,6 +1,6 @@
 [
     {
-        "id": 5, 
+        "id": 1, 
         "video": "./pictures/autofill.mp4", 
         "name": "Autofill Chrome Extension",
         "description": "A chrom ecxtension that autofill aplication forms for you.",
@@ -8,7 +8,7 @@
         "technologies": "React, JavaScript"
     },
     {
-        "id": 1, 
+        "id": 2, 
         "image": "./pictures/wordle.jpg", 
         "name": "Wordle",
         "description": "A word guessing game where you have to guess the word in 6 tries.",
@@ -17,7 +17,7 @@
         "technologies": "React, Firebase, CSS, JavaScript"
     },
     {
-        "id": 2, 
+        "id": 3, 
         "image": "./pictures/wiki-speed-run.jpg", 
         "name": "Wiki Speed Run",
         "description": "An AI agant creating a path from one wiki page to another in the least amount of clicks.",
@@ -30,10 +30,11 @@
         "video": "./pictures/H2grOw.mp4", 
         "name": "H2grOw",
         "description": "An arduino project that tells you when to water your plant.",
+        "github": "https://github.com/NogaTal98/H2grOw",
         "technologies": "C++, Arduino, Sensors"
     },
     {
-        "id": 3, 
+        "id": 5, 
         "image": "./pictures/mouse_race.jpg", 
         "name": "Mouse Race",
         "description": "A 3D click game where you need to click the right element and avoid the wrong ones.",
